@@ -1,0 +1,206 @@
+body{
+    background-color: #f8dddd; 
+    font-family: serif;
+    font-size: medium;
+}
+
+/* 页眉区 */
+header.top{
+    background-image: url(../image-resume/R-C.jpg);
+    margin: 0px;
+    height: 170px;
+}
+header.top h1{
+    margin: 0;
+    padding-top: 50px;
+    font-size: 70px;
+    color: white;
+    font-style: italic;
+    font-family: STCaiyun;
+    text-align: center;
+}
+
+#header-note{
+    display: block;
+    font-style: italic;
+    border: none;
+    float: right;
+    width: 180px;
+    font-size: 100%;
+    color: #FFCCCC;
+    margin: 10px 0px 0px 0px;
+}
+
+header.top a:link{
+    text-decoration: none;
+    color: #FFCCCC;
+}
+header.top a:visited{
+    text-decoration: none;
+    color: #CC3399;
+}
+
+/* 导航区 */
+nav{
+    background-color: #FFCCCC;
+    height: 40px;
+    text-align: center;
+    margin: 0px ;
+}
+nav ul{
+    display: inline-block;
+    margin: 10px;
+    list-style-type: none;
+    padding: 0 ;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a:link{
+    color: white;
+    text-decoration: none;
+    font-size: 130%;
+    margin-left: 20px;
+    font-weight: bold;
+}
+nav ul li a:visited{
+    color: #996699;
+}
+
+
+/* 内容区-1 */
+.section-1{
+    margin: 10px 40px 10px 40px;
+}
+#picture-detail{
+    padding-left: 150px;
+    padding-right: 150px; 
+}
+
+#word-1{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #996699;
+    font-size: 500%;
+    font-family: serif;
+    text-shadow: 5px 5px 10px #e58484;
+    text-align: center;
+}
+
+/* 内容区-2 */
+#section-2{
+    margin: 10px 40px 10px 40px;
+    height: 500px;
+}
+
+div.inner{
+    margin-left: 160px;
+    margin-right: 150px;
+}
+
+div#section-2-1{
+    float: left;
+    width: 450px;
+    height: 400px;
+    margin-top: 20px;
+    background-color: #FFCCCC;
+    font-size: medium;
+    border: 15px dashed #f8dddd ;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.decoration{
+    float:right;
+    height: 40%;
+    margin-top : 10px;
+}
+
+h1{
+    color: #996699;
+    font-family: simhei;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+h3{
+    color: #6699CC;
+    text-indent: 2em;
+    line-height: 2em;
+}
+div#section-2-2{
+    width: 450px;
+    margin-top: 20px;
+    float: right;
+    height: 400px;
+    /* background-color: #996699; */
+    border: 15px dashed #f8dddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-image: url(../image/bc.png);
+}
+
+
+
+
+/* 页脚区 */
+#end{
+    background-color: #FFCCCC;
+    height: 80px;
+    margin: 0px;
+}
+
+div.f-1{
+    float: left;
+    width: 400px;
+    padding-left:300px;
+}
+
+div.f-1 p{
+    font-size: small;
+    font-family: SinSun;
+    line-height: 20px;
+}
+
+
+div.f-2{
+    float: right;
+    width: 800px;
+    /* margin:0 20px 0 700px; */
+    padding: 0px;
+}
+
+div.f-2-1{
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+div.f-2-1 p{
+    font-size: small;
+    font-family: simsun;
+    margin: 0px;
+}
+
+div.f-2 div.f-2-2 ul{
+    width :280px;
+    padding: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+div.f-2 div.f-2-2 li{
+    width: 100px;
+    float: left;
+    display:block;
+    font-size: small;
+    font-family: simsun;
+    line-height: 20px;
+}
+div.f-2 div.f-2-2 li a:link{
+    text-decoration: none;
+    color: black;
+}
+div.f-2 div.f-2-2 li a:visited{
+    color: black;
+}

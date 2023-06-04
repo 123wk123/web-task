@@ -1,0 +1,205 @@
+body{
+    background-color: #f8dddd;
+    font-family: serif;
+    font-size: medium;
+}
+/* 页眉区 */
+header.top{
+    background-image: url(../image-resume/R-C.jpg);
+    margin: 0px;
+    height: 170px;
+}
+header.top h1{
+    margin: 0;
+    padding-top: 50px;
+    font-size: 70px;
+    color: white;
+    font-style: italic;
+    font-family: STCaiyun;
+    text-align: center;
+}
+
+
+#header-note{
+    display: block;
+    font-style: italic;
+    border: none;
+    float: right;
+    width: 180px;
+    color: #FFCCCC;
+    margin: 10px 0px 0px 0px;
+}
+
+header.top a:link{
+    text-decoration: none;
+    color: #FFCCCC;
+}
+header.top a:visited{
+    text-decoration: none;
+    color: #CC3399;
+}
+
+/* 导航区 */
+nav{
+    background-color: #FFCCCC;
+    height: 40px;
+    text-align: center;
+    margin: 0px ;
+}
+nav ul{
+    display: inline-block;
+    margin: 10px;
+    list-style-type: none;
+    padding: 0 ;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a:link{
+    color: white;
+    text-decoration: none;
+    font-size: 130%;
+    margin-left: 20px;
+    font-weight: bold;
+}
+nav ul li a:visited{
+    color: #996699;
+}
+
+
+/* 内容区 */
+/* 关于我 */
+#section-1{
+    width: 400px;
+    float: left;
+}
+#section-1 h1{
+    background-color: #FFCCCC;
+    text-align: left;
+    padding-left: 20px;
+    color: #6699CC;
+}
+#section-1 img{
+    margin-left: 70px;
+    width: 260px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+#section-1 p{
+    text-indent: 2em;
+}
+
+/* 个人简介 */
+.section-2{
+    float: left;
+    margin-left: 50px;
+    width: 500px;
+}
+
+.section-2 h1{
+    background-color: #FFCCCC;
+    text-align: left;
+    padding-left: 20px;
+    color: #6699CC;
+}
+
+.section-2 p{
+    text-indent: 2em;
+    line-height: 1.5em;
+}
+
+.section-2 div.me {
+    width: 200px;
+    margin-left: 30px;
+    float: left;
+}
+
+.section-2 div.me img{
+    width: 80%;
+    border: #FFCCCC 5px solid; 
+    overflow: hidden;
+}
+
+/* 校园剪影 */
+.section-2 div.campus{
+    width: 500px;
+    height: 150px;
+    margin-bottom: 10px;
+}
+.section-2 div.campus div.pic{
+    width: 210px;
+    height: 140px;
+    margin-left: 30px;
+    float: left;
+}
+
+.section-2 div.campus div.pic img{
+    width: 85%;
+    height: 114px;
+    border: white 5px solid;
+    overflow: hidden;
+}
+
+
+/* 页脚区 */
+#end{
+    display: flex;
+    background-color: #FFCCCC;
+    /* background: linear-gradient(#FFCCCC,#9f48bc); */
+    height: 80px;
+    margin: 0px;
+    width: 100%;
+}
+
+div.f-1{
+    float: left;
+    width: 400px;
+    padding-left:300px;
+}
+
+div.f-1 p{
+    font-size: small;
+    font-family: SinSun;
+    line-height: 20px;
+}
+
+
+div.f-2{
+    float: right;
+    width: 800px;
+    /* margin:0 20px 0 700px; */
+    padding: 0px;
+}
+
+div.f-2-1{
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+div.f-2-1 p{
+    font-size: small;
+    font-family: simsun;
+    margin: 0px;
+}
+
+div.f-2 div.f-2-2 ul{
+    width :280px;
+    padding: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+div.f-2 div.f-2-2 li{
+    width: 100px;
+    float: left;
+    display:block;
+    font-size: small;
+    font-family: simsun;
+    line-height: 20px;
+}
+div.f-2 div.f-2-2 li a:link{
+    text-decoration: none;
+    color: black;
+}
+div.f-2 div.f-2-2 li a:visited{
+    color: black;
+}

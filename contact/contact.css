@@ -1,0 +1,183 @@
+body{
+    background-color: #f8dddd;
+    font-family: serif;
+    font-size: medium;
+}
+/* 页眉区 */
+header.top{
+    background-image: url(../image-resume/R-C.jpg);
+    margin: 0px;
+    height: 170px;
+}
+header.top h1{
+    margin: 0;
+    padding-top: 50px;
+    font-size: 70px;
+    color: white;
+    font-style: italic;
+    font-family: STCaiyun;
+    text-align: center;
+}
+
+
+#header-note{
+    display: block;
+    font-style: italic;
+    border: none;
+    float: right;
+    width: 180px;
+    color: #FFCCCC;
+    margin: 10px 0px 0px 0px;
+}
+
+header.top a:link{
+    text-decoration: none;
+    color: #FFCCCC;
+}
+header.top a:visited{
+    text-decoration: none;
+    color: #CC3399;
+}
+
+/* 导航区 */
+nav{
+    background-color: #FFCCCC;
+    height: 40px;
+    text-align: center;
+    margin: 0px ;
+}
+nav ul{
+    display: inline-block;
+    margin: 10px;
+    list-style-type: none;
+    padding: 0 ;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a:link{
+    color: white;
+    text-decoration: none;
+    font-size: 130%;
+    margin-left: 20px;
+    font-weight: bold;
+}
+nav ul li a:visited{
+    color: #996699;
+}
+
+section h1{
+    text-align: left;
+    font-family: SimHei;
+    margin-top: 20px;
+    text-indent: 2em;
+    font-size: 1.5em;
+    color: #6699CC;
+    border-bottom: 3px solid #FFCCCC;
+}
+
+form{
+    display: table;
+    padding: 10px;
+    border: thin dotted #fb8b8b;
+    background-color: #FFCCCC;
+    margin: 20px;
+    margin-left: 50px;
+    height: 350px;
+    float: left;
+}
+
+form textarea{
+    width:300px;
+    height: 80px;
+}
+
+div.tablerow{
+    display: table-row;
+}
+
+div.tablerow p{
+    display: table-cell;
+    vertical-align: top;
+    padding: 3px;
+}
+
+div.tableRow p:first-child {
+	text-align: right;
+}
+
+div#picture{
+    float: left;
+    margin-top: 30px;
+}
+div#picture img{
+    width: 800px;
+    padding-left: 50px;
+}
+
+
+
+
+/* 页脚区 */
+#end{
+    display: flex;
+    background-color: #FFCCCC;
+    /* background: linear-gradient(#FFCCCC,#9f48bc); */
+    height: 80px;
+    margin: 0px;
+    width: 100%;
+}
+
+div.f-1{
+    float: left;
+    width: 400px;
+    padding-left:300px;
+}
+
+div.f-1 p{
+    font-size: small;
+    font-family: SinSun;
+    line-height: 20px;
+}
+
+
+div.f-2{
+    float: right;
+    width: 800px;
+    /* margin:0 20px 0 700px; */
+    padding: 0px;
+}
+
+div.f-2-1{
+    margin-top: 13px;
+    margin-bottom: 0px;
+}
+
+div.f-2-1 p{
+    font-size: small;
+    font-family: simsun;
+    margin: 0px;
+}
+
+div.f-2 div.f-2-2 ul{
+    width :280px;
+    padding: 0px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+div.f-2 div.f-2-2 li{
+    width: 100px;
+    float: left;
+    display:block;
+    font-size: small;
+    font-family: simsun;
+    line-height: 20px;
+}
+
+div.f-2 div.f-2-2 li a:link{
+    text-decoration: none;
+    color: black;
+}
+div.f-2 div.f-2-2 li a:visited{
+    color: black;
+}
