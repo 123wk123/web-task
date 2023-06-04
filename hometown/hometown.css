@@ -72,7 +72,7 @@ nav ul li a:visited{
 }
 
 
-/* 边栏区 */
+/* 边栏区-浮动在整个页面的右侧 */
 aside{
     margin-top: 20px;
     margin-left: 0px;
@@ -101,6 +101,7 @@ aside p{
 /* 国际地位 */
 #status{
     float: left;
+/*     左侧浮动，避免与aside重合 */
     width: 1150px;
     height: 230px;
 }
@@ -108,6 +109,7 @@ aside p{
     border-radius: 100%;
     height: 200px;
     float:right;
+/*     浮动在整个盒子右边 */
     border: #f8dddd 10px solid;
     margin-top: 10px;
     margin-right: 80px;
@@ -124,6 +126,7 @@ section#status p{
 
 
 /* 美食特色 */
+/* 左侧浮动，避免与aside重合 */
 #foods{
     margin-top: 20px;
     float: left;
@@ -163,6 +166,7 @@ div.box div.name{
 }
 
 /* 热门旅游景点 */
+/* 左侧浮动，避免与aside重合 */
 #places{
     float: left;
     margin-top: 0px;
