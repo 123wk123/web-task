@@ -39,6 +39,7 @@ header.top a:visited{
     text-decoration: none;
     color: #CC3399;
 }
+/* 设置超链接访问前与访问后的样式 */
 
 /* 导航区 */
 nav{
@@ -47,6 +48,8 @@ nav{
     text-align: center;
     margin: 0px ;
 }
+
+/* 利用无序列表实现导航区超链接 */
 nav ul{
     display: inline-block;
     margin: 10px;
@@ -66,6 +69,7 @@ nav ul li a:link{
 nav ul li a:visited{
     color: #996699;
 }
+
 
 
 /* 内容区-1 */
@@ -98,6 +102,7 @@ div.inner{
     margin-right: 150px;
 }
 
+/* 浮动布局，将盒子浮动在左边 */
 div#section-2-1{
     float: left;
     width: 450px;
@@ -130,6 +135,8 @@ h3{
     text-indent: 2em;
     line-height: 2em;
 }
+
+/* 浮动布局，盒子浮动在右边，使得两个盒子显示在同一水平方向 */
 div#section-2-2{
     width: 450px;
     margin-top: 20px;
@@ -151,7 +158,7 @@ div#section-2-2{
     height: 80px;
     margin: 0px;
 }
-
+/* 浮动布局 */
 div.f-1{
     float: left;
     width: 400px;
